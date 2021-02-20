@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    float: left;
+    width: 10em;
+    height: 100%;
+    list-style-type: none;
+}
+
+.fas{
+    font-size: 2em !important;
+}
+
+a.menu {
+    background: beige;
+    display: block;
+    padding: 1em;
+}
+
+li a.menu:hover {
+    background-color: #555;
+}
+
+body.top{
+    background-color: palegoldenrod;
+    /*
+    background-image: url("https://i.pinimg.com/originals/82/f5/e4/82f5e45f5e07c56768b72da0b223370d.jpg")
+    */
+}
+
+.container {
+    position: relative;
+    height: auto;
+    width: auto;
+    top: 10em;
+    text-align: center;
+}
+
+.posbas {   
+    margin: auto; 
+    text-align:bottom;
+    position:absolute;
+    right:10px;
+    top: 46em;
+}
