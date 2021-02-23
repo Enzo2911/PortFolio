@@ -1,4 +1,3 @@
-
 window.onload = function() {
     var rythm = new Rythm()
     var audio = document.getElementById('audio')
@@ -83,7 +82,7 @@ window.onload = function() {
         rythm.stop()
       }
       // rythm.connectExternalAudioElement(audio)
-      rythm.setMusic('./music/rythmC.mp3')
+      rythm.setMusic('./music/rythmF.mp3')
       rythm.setGain(0.1)
       rythm.start()
     }

@@ -1,7 +1,26 @@
-* {
+body, html {
     margin: 0;
     padding: 0;
 }
+
+/* Main */
+
+body{
+    background-color: GRAY;
+    /*
+    background-image: url("https://i.pinimg.com/originals/82/f5/e4/82f5e45f5e07c56768b72da0b223370d.jpg")
+    */
+}
+
+.container {
+    position: relative;
+    height: auto;
+    width: auto;
+    top: 10em;
+    text-align: center;
+}
+
+/* barre de navigation */
 
 nav {
     position: fixed;
@@ -25,20 +44,25 @@ li a.menu:hover {
     background-color: #555;
 }
 
-body.top{
-    background-color: palegoldenrod;
-    /*
-    background-image: url("https://i.pinimg.com/originals/82/f5/e4/82f5e45f5e07c56768b72da0b223370d.jpg")
-    */
+/* HEADER */
+
+header.home {
+
 }
 
-.container {
-    position: relative;
-    height: auto;
-    width: auto;
-    top: 10em;
-    text-align: center;
+/* SECTION */
+
+section.mesetudes {
+    
 }
+
+/* Effet des text */
+
+.textgris {
+    color: gray;
+}
+
+/* Bas de page */
 
 .posbas {   
     margin: auto; 
